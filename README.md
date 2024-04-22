@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/social-media-dashboard](https://www.frontendmentor.io/solutions/social-media-dashboard)
+- Solution URL: [frontendmentor.io/solutions/social-media-dashboard]([https://www.frontendmentor.io/solutions/social-media-dashboard](https://www.frontendmentor.io/solutions/social-media-dashboard-using-reactjs-Fbd9tToxt-))
 
 ## My process
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Mobile first workflow
-- Tailiwnd CSS
+- Tailwind CSS
 - ReactJS
 
 ## Author
