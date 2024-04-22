@@ -14,10 +14,8 @@ const App = () => {
   };
 
   return (
-    <div
-      className={`min-h-screen bg-primary-bg p-6 text-sm transition-colors duration-500 lg:px-[11.2vw] lg:pt-[2.125rem]`}
-    >
-      <header className="flex flex-col justify-between md:flex-row">
+    <div className="before:bg-Pattern relative min-h-screen bg-primary-bg p-6 text-sm transition-colors duration-500 before:absolute before:left-0 before:top-0 before:h-[15.25rem] before:w-full lg:px-[11.2vw] lg:pt-[2.125rem]">
+      <header className="relative flex flex-col justify-between md:flex-row">
         <div className="border-b border-secondary-bg pb-4 md:border-none md:pb-0">
           <h1 className="text-2xl font-bold text-primary-text md:text-[1.8rem] md:leading-snug">
             Social Media Dashboard

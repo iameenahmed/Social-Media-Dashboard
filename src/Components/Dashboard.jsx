@@ -29,9 +29,9 @@ const Dashboard = () => {
         })}
       </div>
       <div>
-        <h3 className="mb-6 text-2xl font-bold text-secondary-text">
+        <h2 className="mb-6 text-2xl font-bold text-secondary-text">
           Overview - Today
-        </h3>
+        </h2>
         <div className="grid gap-x-8 gap-y-6 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
           {overview.map(({ id, title, icon, count, change, isIncrease }) => {
             return (

@@ -8,7 +8,7 @@ export default {
         BrightRed: "hsl(356, 69%, 56%)",
 
         Toggle: "hsl(230, 22%, 74%)",
-        pattern: "var(--bg-pattern-color)",
+        Pattern: "var(--bg-pattern-color)",
 
         "primary-text": "var(--primary-text-color)",
         "primary-bg": "var(--primary-bg-color)",

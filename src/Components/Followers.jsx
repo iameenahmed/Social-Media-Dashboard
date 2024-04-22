@@ -16,14 +16,14 @@ const Followers = ({
     >
       <div className="inline-flex items-center gap-2">
         <img src={icon} alt="social media icon" />
-        <h4 className="text-xs font-bold text-secondary-text">@{username}</h4>
+        <h3 className="text-xs font-bold text-secondary-text">@{username}</h3>
       </div>
-      <h5 className="flex flex-col gap-1 text-[3.5rem] font-bold leading-none text-primary-text">
+      <h4 className="flex flex-col gap-1 text-[3.5rem] font-bold leading-none text-primary-text">
         {count}{" "}
         <span className="text-sm font-normal uppercase tracking-[0.35em] text-secondary-text">
           {username.includes("F.") ? "subscribers" : "followers"}
         </span>
-      </h5>
+      </h4>
       <div className="flex items-center justify-center ">
         <img
           src={isDecrease ? iconDown : iconUp}
